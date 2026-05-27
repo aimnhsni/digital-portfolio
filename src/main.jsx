@@ -34,7 +34,7 @@ import "./styles.css";
 const profile = {
   name: "Aiman Zazani",
   role: "Solution Engineer - Carbon, EAM Products",
-  location: "Lenggeng, Negeri Sembilan",
+  location: "Merbok, Kedah",
   phone: "+6011-10154786",
   email: "aimanhasni114@gmail.com",
   linkedin: "https://linkedin.com/in/aimnhsni",
@@ -302,7 +302,11 @@ function App() {
             </a>
           </div>
           <div className="location">
-            <MapPin size={16} />
+            <span>Currently in:</span>
+          </div>
+          <div className="location">
+            {/* <MapPin size={16} /> */}
+            <span className="status-dot-location"/>
             <span>{profile.location}</span>
           </div>
         </aside>

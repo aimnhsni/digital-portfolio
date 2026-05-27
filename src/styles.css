@@ -221,6 +221,16 @@ button {
   animation: status-blink 1.35s ease-in-out infinite;
 }
 
+.status-dot-location {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #1ce767;
+  box-shadow: 0 0 24px rgba(8, 189, 111, 0.72);
+  animation: status-blink 1.35s ease-in-out infinite;
+}
+
 h1,
 h2,
 h3,
